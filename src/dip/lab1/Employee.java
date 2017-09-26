@@ -13,7 +13,7 @@ public class Employee {
     private double totalHrsForYear;
     private double annualSalary;
     private double annualBonus;
-
+    
     /**
      * Returns annual wages for hourly workers. Is this polymorphic?
      * Could it be? Does it belong here?
