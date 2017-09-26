@@ -4,7 +4,7 @@ package dip.lab2.student.solution1;
  *
  * @author mjmersenski
  */
-public class FoodServiceTipCalculator {
+public class FoodServiceTipCalculator implements TipCalculator {
 
     private double billAmt;
     private double tipPercent;

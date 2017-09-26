@@ -4,7 +4,7 @@ package dip.lab2.student.solution1;
  *
  * @author mjmersenski
  */
-public class BaggageServiceTipCalculator {
+public class BaggageServiceTipCalculator implements TipCalculator {
     private double baseTipPerBag;
     private int bagCount;
     private double tipPercent;
