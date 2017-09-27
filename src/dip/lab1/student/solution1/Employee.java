@@ -9,7 +9,7 @@ import dip.lab1.*;
  *
  * @author your name goes here
  */
-public class Employee {
+public abstract class Employee {
     /**
      * annualWages and annualSalary are the same thing (DIP repetitive task)
      */
@@ -21,6 +21,6 @@ public class Employee {
      * @return annual wages for hourly workers using the formula
      * annualWages = hourlyRate * totalHrsForYear
      */
-    public double getAnnualWages();
+    public abstract double getAnnualWages();
 
 }
